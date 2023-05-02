@@ -84,7 +84,6 @@ int main(int argc, char **argv)
 
         res2 = write(fd,buf,res); /*envia o buffer recebido*/
         
-        //printf("%d bytes written\n", res2);
                
         if (buf[0] == 'z')
             STOP = TRUE;
