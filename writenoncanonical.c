@@ -98,7 +98,8 @@ int main(int argc, char** argv)
         buf2[res2]=0;               /* so we can printf... */
         printf(":%s:%d\n", buf2, res2); 
 
-        if (buf[i] == '!') STOP=TRUE;
+        /*if (buf[i] == '!') STOP=TRUE;
+        else if (i == 255) STOP=TRUE;*/
     }
 
 
